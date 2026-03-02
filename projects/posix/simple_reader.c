@@ -21,6 +21,7 @@ typedef struct {
 
 int main() {
     int shm_fd;
+    
     shared_data_t *shared_data;
     sem_t *semaphore;
     int last_counter = 0;

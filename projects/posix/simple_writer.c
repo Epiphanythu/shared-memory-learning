@@ -14,7 +14,7 @@
 #define SHM_SIZE 1024
 
 typedef struct {
-    time_t timestamp;
+    time_t timestamp; 
     pid_t writer_pid;
     char message[256];
     int counter;
